@@ -1,0 +1,63 @@
+
+
+body{
+   margin:0;
+ }
+a {color:white;text-decoration: none;
+   font-family: 'Do Hyeon', sans-serif;
+}
+
+
+h1 {
+  text-align: center;
+  border-bottom:2px solid black;
+  margin:0;
+  padding:20px;
+  }
+  /* The navbar container */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Links - change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  ul{
+    font-family: 'Do Hyeon', sans-serif;
+    background-color:#406285;
+    border-right:2px solid black;
+    width:150px;
+    margin:0;
+    padding:30px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 220px 1fr;
+  }
+  #grid ul{
+    padding-left: 40px;
+  }
+  #grid #article{
+    padding-left: 40px;
+  }
+  @media(max-width:800px){
+    #grid{
+      display: block;}
+    ul{
+      border-right:none;}
+    h1 {
+    border-bottom:none;}
+  }
