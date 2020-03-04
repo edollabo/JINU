@@ -19,17 +19,53 @@ p {
   text-align: center;
 }
 
-  #jb-container{
+@font-face{ font-family:ng; src:url(NanumGothic.eot); src:local(※), url(NanumGothic.woff) format(‘woff’) }
+
+body{font-family:'나눔고딕', 'NanumGothic', ng}
+
+#보라패널, #보라플립 {
+  padding: 5px;
+  text-align: left;
+
+}
+
+#보라패널 {
+  padding: 5px;
+  display: none;
+}
+
+#진우패널, #진우플립 {
+  padding: 5px;
+  text-align: left;
+
+}
+
+#진우패널 {
+  padding: 5px;
+  display: none;
+}
+
+
+  #grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  padding-left:100px;
+  padding-right:100px;
+
+}
+
+#jb-container{
         width: 1300px;
-        margin: 0px auto;
+        margin: auto;
         padding: 20px;
         border: 1px solid #bcbcbc;
-        background-color:#406285;
+
   }
   #jb-header {
        padding: 20px;
        margin-bottom: 40px;
-       border: 1px solid #bcbcbc;
+
        background-color:white;
      }
   #jb-content {
